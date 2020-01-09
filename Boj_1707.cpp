@@ -1,4 +1,5 @@
-#include <iostream>
+//Main idea: 모든 정점은 두개의 그룹 중 하나에 속해야 한다.
+#include <iostream> 
 #include <vector>
 #include <list>
 
