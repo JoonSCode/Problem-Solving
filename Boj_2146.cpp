@@ -1,3 +1,4 @@
+//Main idea: 순회를 하며 depth와 최단거리 값을 같이 저장하고 갱신 
 #include <iostream>
 #include <vector>
 #include <queue>
@@ -39,27 +40,23 @@ int main() {
 		int depth = 0;
 		vector < vector<int>> n_data = data;
 		bool find = false;
-	//	cout << "-----------------새롭게 시작:  " << "y: " << leaf.first << "\tx: " << leaf.second << "\n";
-//		cout << "-----------------------------------------\n";
 
 		while (!find && !que.empty()) {
 			queue<pair<int, int>> n_que;
+			
 			while (!find && !que.empty()) {
 				int y = que.front().first;
 				int x = que.front().second;
 				que.pop();
 				find = BFS(n_data, n_que, y, x, answer, depth);
-//				cout << "find: " << find << "\n";
 			}
 			que = n_que;
 			depth++;
 		}
-
-
-	//	cout << "현재 정답: " << answer << "\n";
 	}
 	cout << answer;
 }
+
 void input(vector<vector<int>>& data) {
 	for (int i = 0; i < data.size(); i++) {
 		for (int n = 0; n < data.size(); n++) {
@@ -70,6 +67,7 @@ void input(vector<vector<int>>& data) {
 		}
 	}
 }
+
 void DFS(vector<vector<int>>& data, set<pair<int,int>>& leaves, int& y, int& x, int group) {
 	data[y][x] = group;
 	pair<int, int> arr[4] = { {-1,0},{0,1},{1,0},{0,-1} };
@@ -86,10 +84,10 @@ void DFS(vector<vector<int>>& data, set<pair<int,int>>& leaves, int& y, int& x, 
 		}
 	}
 }
+
 bool BFS(vector<vector<int>>& data, queue<pair<int,int>>& que, const int& y, const int& x, int& answer, int&depth) {
 	int group_no = data[y][x];
 	pair<int, int> arr[4] = { {-1,0},{0,1},{1,0},{0,-1} };
-//	cout << "---------------" << group_no << "에 대해 검사중\n";
 	for (int i = 0; i < 4; i++) {
 		int newY = y + arr[i].first;
 		int newX = x + arr[i].second;
@@ -97,10 +95,8 @@ bool BFS(vector<vector<int>>& data, queue<pair<int,int>>& que, const int& y, con
 			if (data[newY][newX] == 0) {
 				data[newY][newX] = group_no;
 				que.push({ newY, newX });
-		//		cout << "경유중!!  newY: " << newY << "\tnewX: " << newX << "  깊이: " << depth << " 그룹: " << data[newY][newX] << "\n";
 			}
 			else if (data[newY][newX] != group_no) {//다른 섬에 도착한 경우
-		//		cout << "도착!!!  newY: " << newY << "\tnewX: " << newX << "   깊이: " << depth << " 그룹: " << data[newY][newX] << "\n";
 				if (depth < answer) 
 					answer = depth;	
 				return true;//도착했음을 알림
