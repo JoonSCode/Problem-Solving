@@ -1,3 +1,4 @@
+//Main idea: 동전을 순서대로 사용하며 중복 없는 경우 
 #include <iostream>
 #include <cstring>
 #include <algorithm>
