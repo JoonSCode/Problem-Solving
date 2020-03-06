@@ -5,10 +5,10 @@
 
 using namespace std;
 
-long long cache[1000001];
+int cache[1000001];
 
-long long run(int N) {
-    long long& ret = cache[N];
+int run(int N) {
+    int& ret = cache[N];
     if (ret != -1)
         return ret;
     return ret = (run(N - 1) + run(N - 2)) % 15746;//뒤에 1로 끝나는 경우 00 으로 끝나는 경우를 합치면된다. 도중에 숫자가 너무 커지므로 미리 나머지 연산을 취한다.
