@@ -1,4 +1,4 @@
-//Main idea: 
+//Main idea: 정렬
 #include <iostream>
 #include <vector>
 #include <algorithm>
