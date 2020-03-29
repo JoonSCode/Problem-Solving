@@ -1,0 +1,101 @@
+//Main idea:ㅗ모양은 따로 처리하고 나머지는 4개의 연속된 것 이므로 dfs로 
+#include <iostream>
+#include <algorithm>
+#include <vector>
+#include <queue>
+#include <list>
+#include <cmath>
+#include <stack>
+#include <cstring>
+#include <string>
+#include <map>
+#include <unordered_map>
+#include <algorithm>
+
+using namespace std;
+
+int N, M;
+vector<vector<int>>Map;
+vector<vector<int>> isVisited;
+pair<int, int> od[4] = { {0,1},{0,-1},{1,0},{-1,0} };
+
+void Input() {
+	cin >> N >> M;
+	Map.resize(N, vector<int>(M));
+	isVisited.resize(N, vector<int>(M));
+	for (int y = 0; y < N; y++) {
+		for (int x = 0; x < M; x++) {
+			int num;
+			cin >> num;
+			Map[y][x] = num;
+		}
+	}
+}
+
+bool check(int& x, int& y) {
+	if (x < 0 || x >= M || y < 0 || y >= N)
+		return false;
+	if (isVisited[y][x] == 1)
+		return false;
+	return true;
+}
+
+int Dfs(int y,int x, int cnt) {
+	int val = Map[y][x];
+	int m = 0;
+	if (cnt == 4)
+		return val;
+	for (pair<int, int>& a : od) {
+		int nx = x + a.first;
+		int ny = y + a.second;
+		if (check(nx, ny)) {
+			isVisited[ny][nx] = 1;
+			m = max(m,Dfs(ny, nx, cnt + 1));
+			isVisited[ny][nx] = 0;
+		}
+	}
+	return val + m;
+}
+
+int func(int& y, int& x) {
+	int val = 0;
+	if (y + 2 < N ) {
+		int sum = 0;
+		for (int i = y; i <= y + 2; i++)
+			sum += Map[i][x];
+		if (x - 1 >= 0) 	//ㅓ모양
+			val = max(sum + Map[y + 1][x - 1], val);
+		if (x + 1 < M) //ㅏ모양
+			val = max(sum + Map[y + 1][x + 1], val);
+	}
+	if (x + 2 < M) {
+		int sum = 0;
+		for (int i = x; i <= x + 2; i++)
+			sum += Map[y][i];
+		if(y-1>=0)//ㅗ모양
+			val = max(sum + Map[y - 1][x + 1], val);
+		if(y+1<N)//ㅜ모양
+			val = max(sum + Map[y + 1][x + 1], val);
+	}
+	return val;
+}
+
+void Test() {
+	Input();
+	int answer = 0;
+	for (int y = 0; y < N; y++) {
+		for (int x = 0; x < M; x++) {
+			isVisited[y][x] = 1;
+			answer = max(answer, Dfs(y, x, 1));
+			isVisited[y][x] = 0;
+			answer = max(func(y, x), answer);
+		}
+	}
+	cout << answer;
+}
+
+int main() {
+	ios::sync_with_stdio(false);
+	cin.tie(NULL);
+	Test();
+}
