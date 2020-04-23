@@ -1,3 +1,4 @@
+//Main idea: next_permutation으로는 해결 
 #include <iostream>
 #include <algorithm>
 #include <list>
