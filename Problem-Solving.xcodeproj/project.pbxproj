@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F78C46AE271E4EAF00B0B1E2 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F78C46AD271E4EAF00B0B1E2 /* main.swift */; };
+		F7333088271FB67D0095E6EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7333087271FB67D0095E6EC /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,8 +23,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		F7333087271FB67D0095E6EC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F7333089271FB78C0095E6EC /* LeetCode - Regular Expression Matching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Regular Expression Matching.swift"; sourceTree = "<group>"; };
 		F78C46AA271E4EAF00B0B1E2 /* Problem-Solving */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem-Solving"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F78C46AD271E4EAF00B0B1E2 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F78C46AD271E4EAF00B0B1E2 /* LeetCode -  Palindrome Number.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode -  Palindrome Number.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +43,8 @@
 		F78C46A1271E4EAF00B0B1E2 = {
 			isa = PBXGroup;
 			children = (
+				F78C46AD271E4EAF00B0B1E2 /* LeetCode -  Palindrome Number.swift */,
+				F7333089271FB78C0095E6EC /* LeetCode - Regular Expression Matching.swift */,
 				F78C46AC271E4EAF00B0B1E2 /* Problem-Solving */,
 				F78C46AB271E4EAF00B0B1E2 /* Products */,
 			);
@@ -57,7 +61,7 @@
 		F78C46AC271E4EAF00B0B1E2 /* Problem-Solving */ = {
 			isa = PBXGroup;
 			children = (
-				F78C46AD271E4EAF00B0B1E2 /* main.swift */,
+				F7333087271FB67D0095E6EC /* main.swift */,
 			);
 			path = "Problem-Solving";
 			sourceTree = "<group>";
@@ -120,7 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F78C46AE271E4EAF00B0B1E2 /* main.swift in Sources */,
+				F7333088271FB67D0095E6EC /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
