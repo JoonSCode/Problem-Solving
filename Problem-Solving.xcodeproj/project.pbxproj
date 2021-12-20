@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		554F8DB2276B407C00A54639 /* LeetCode - 3Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554F8DB1276B407C00A54639 /* LeetCode - 3Sum.swift */; };
 		F7333088271FB67D0095E6EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7333087271FB67D0095E6EC /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +24,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		554F8D1B27676BE000A54639 /* LeetCode - Container With Most Water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Container With Most Water.swift"; sourceTree = "<group>"; };
+		554F8DB1276B407C00A54639 /* LeetCode - 3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - 3Sum.swift"; sourceTree = "<group>"; };
 		F7333087271FB67D0095E6EC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F7333089271FB78C0095E6EC /* LeetCode - Regular Expression Matching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Regular Expression Matching.swift"; sourceTree = "<group>"; };
 		F78C46AA271E4EAF00B0B1E2 /* Problem-Solving */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem-Solving"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -43,6 +46,8 @@
 		F78C46A1271E4EAF00B0B1E2 = {
 			isa = PBXGroup;
 			children = (
+				554F8DB1276B407C00A54639 /* LeetCode - 3Sum.swift */,
+				554F8D1B27676BE000A54639 /* LeetCode - Container With Most Water.swift */,
 				F78C46AD271E4EAF00B0B1E2 /* LeetCode -  Palindrome Number.swift */,
 				F7333089271FB78C0095E6EC /* LeetCode - Regular Expression Matching.swift */,
 				F78C46AC271E4EAF00B0B1E2 /* Problem-Solving */,
@@ -124,6 +129,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				554F8DB2276B407C00A54639 /* LeetCode - 3Sum.swift in Sources */,
 				F7333088271FB67D0095E6EC /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
