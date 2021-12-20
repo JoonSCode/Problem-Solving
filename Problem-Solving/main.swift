@@ -15,4 +15,26 @@ let sol = Solution()
 //print(sol.maxArea([4,3,2,1,4]))
 //print(sol.threeSum([-1,0,1,2,-1,-4]))
 //print(sol.threeSum([0,0]))
-print(sol.threeSum([]))
+//print(sol.threeSum([]))
+//sol.main()
+
+var head = ListNode(1)
+var tmpHead = head
+for i in (2 ... 2) {
+    tmpHead.next = ListNode(i)
+    tmpHead = tmpHead.next!
+}
+
+var tmp: ListNode? = head
+while tmp != nil {
+    print(tmp?.val)
+    tmp = tmp?.next
+}
+
+print("------------------------")
+
+var ans = sol.removeNthFromEnd(head, 1)
+while ans != nil {
+    print(ans?.val)
+    ans = ans?.next
+}
