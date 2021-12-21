@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		554F8E612771E0F100A54639 /* LeetCode - Generate Parentheses .swift in Sources */ = {isa = PBXBuildFile; fileRef = 554F8E602771E0F100A54639 /* LeetCode - Generate Parentheses .swift */; };
+		554F8E6C277204D600A54639 /* LeetCode - Generate Parentheses .swift in Sources */ = {isa = PBXBuildFile; fileRef = 554F8E602771E0F100A54639 /* LeetCode - Generate Parentheses .swift */; };
 		F7333088271FB67D0095E6EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7333087271FB67D0095E6EC /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +50,7 @@
 		F78C46A1271E4EAF00B0B1E2 = {
 			isa = PBXGroup;
 			children = (
+				554F8E602771E0F100A54639 /* LeetCode - Generate Parentheses .swift */,
 				554F8E582770B3D900A54639 /* LeetCode - Remove Nth Node From End of List.swift */,
 				554F8E56277064C500A54639 /* Boj - 분해합.swift */,
 				554F8DB1276B407C00A54639 /* LeetCode - 3Sum.swift */,
@@ -74,7 +75,6 @@
 			isa = PBXGroup;
 			children = (
 				F7333087271FB67D0095E6EC /* main.swift */,
-				554F8E602771E0F100A54639 /* LeetCode - Generate Parentheses .swift */,
 			);
 			path = "Problem-Solving";
 			sourceTree = "<group>";
@@ -137,7 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				554F8E612771E0F100A54639 /* LeetCode - Generate Parentheses .swift in Sources */,
+				554F8E6C277204D600A54639 /* LeetCode - Generate Parentheses .swift in Sources */,
 				F7333088271FB67D0095E6EC /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
