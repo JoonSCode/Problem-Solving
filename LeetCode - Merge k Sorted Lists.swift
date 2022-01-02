@@ -8,82 +8,82 @@
 import Foundation
 
 class Solution {
-    //    func mergeKLists(_ lists: [ListNode?]) -> ListNode? {
-    //        let answer: ListNode = ListNode()
-    //
-    //        guard !lists.isEmpty else { return nil }
-    //
-    //        var minValueListIndex = -1
-    //        var lists = lists
-    //        var listNow: ListNode? = answer
-    //        while true {
-    //            var minValue = 100000
-    //            minValueListIndex = -1
-    //            for (index, list) in lists.enumerated() {
-    //                if let val = list?.val, minValue > val {
-    //                    minValue = val
-    //                    minValueListIndex = index
-    //                }
-    //            }
-    //
-    //            if minValueListIndex == -1 {
-    //                break
-    //            }
-    //
-    //            let minList = lists[minValueListIndex]
-    //            listNow?.next = minList
-    //            listNow = minList
-    //            lists[minValueListIndex] = minList?.next
-    //        }
-    //
-    //        return answer.next
-    //    }
-    
-        func mergeKLists(_ lists: [ListNode?]) -> ListNode? {
-            let answer: ListNode = ListNode()
-    
-            guard !lists.isEmpty else { return nil }
-    
-            var values: [Int] = []
-            lists.forEach({
-                var tmp = $0
-                while tmp != nil {
-                    values.append(tmp!.val)
-                    tmp = tmp?.next
-                }
-            })
-            values.sort()
-            var now: ListNode? = answer
-            values.forEach({
-                now?.next = ListNode($0)
-                now = now?.next
-            })
-    
-            return answer.next
-        }
-    
-//    func mergeKLists(_ lists: [ListNode?]) -> ListNode? {
-//        guard !lists.isEmpty else { return nil }
+//        func mergeKLists(_ lists: [ListNode?]) -> ListNode? {
+//            let answer: ListNode = ListNode()
 //
-//        var values: [ListNode] = []
-//        lists.forEach({
-//            var tmp = $0
-//            while tmp != nil {
-//                values.append(tmp!)
-//                tmp = tmp?.next
+//            guard !lists.isEmpty else { return nil }
+//
+//            var minValueListIndex = -1
+//            var lists = lists
+//            var listNow: ListNode? = answer
+//            while true {
+//                var minValue = 100000
+//                minValueListIndex = -1
+//                for (index, list) in lists.enumerated() {
+//                    if let val = list?.val, minValue > val {
+//                        minValue = val
+//                        minValueListIndex = index
+//                    }
+//                }
+//
+//                if minValueListIndex == -1 {
+//                    break
+//                }
+//
+//                let minList = lists[minValueListIndex]
+//                listNow?.next = minList
+//                listNow = minList
+//                lists[minValueListIndex] = minList?.next
 //            }
-//        })
-//        values.sort()
 //
-//        let answer: ListNode = ListNode()
-//        var now = answer
-//        for node in values {
-//            now.next = node
-//            now = node
+//            return answer.next
 //        }
 //
-//        return answer.next
-//    }
+//        func mergeKLists(_ lists: [ListNode?]) -> ListNode? {
+//            let answer: ListNode = ListNode()
+//
+//            guard !lists.isEmpty else { return nil }
+//
+//            var values: [Int] = []
+//            lists.forEach({
+//                var tmp = $0
+//                while tmp != nil {
+//                    values.append(tmp!.val)
+//                    tmp = tmp?.next
+//                }
+//            })
+//            values.sort()
+//            var now: ListNode? = answer
+//            values.forEach({
+//                now?.next = ListNode($0)
+//                now = now?.next
+//            })
+//
+//            return answer.next
+//        }
+    
+    func mergeKLists(_ lists: [ListNode?]) -> ListNode? {
+        guard !lists.isEmpty else { return nil }
+
+        var values: [ListNode] = []
+        lists.forEach({
+            var tmp = $0
+            while tmp != nil {
+                values.append(tmp!)
+                tmp = tmp?.next
+            }
+        })
+        values.sort()
+
+        let answer: ListNode = ListNode()
+        var now = answer
+        for node in values {
+            now.next = node
+            now = node
+        }
+
+        return answer.next
+    }
     
     
 //    func mergeKLists(_ lists: [ListNode?]) -> ListNode? {

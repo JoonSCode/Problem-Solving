@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		554F8EB4277342C400A54639 /* LeetCode - Merge k Sorted Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 554F8EB3277342C400A54639 /* LeetCode - Merge k Sorted Lists.swift */; };
+		55D3014B277D946D0011154C /* LeetCode - Search in Rotated Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D3014A277D946D0011154C /* LeetCode - Search in Rotated Sorted Array.swift */; };
 		F7333088271FB67D0095E6EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7333087271FB67D0095E6EC /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +31,8 @@
 		554F8E582770B3D900A54639 /* LeetCode - Remove Nth Node From End of List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Remove Nth Node From End of List.swift"; sourceTree = "<group>"; };
 		554F8E602771E0F100A54639 /* LeetCode - Generate Parentheses .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Generate Parentheses .swift"; sourceTree = "<group>"; };
 		554F8EB3277342C400A54639 /* LeetCode - Merge k Sorted Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Merge k Sorted Lists.swift"; sourceTree = "<group>"; };
+		55A727532778767D003D19B9 /* LeetCode - Divide Two Integers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Divide Two Integers.swift"; sourceTree = "<group>"; };
+		55D3014A277D946D0011154C /* LeetCode - Search in Rotated Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Search in Rotated Sorted Array.swift"; sourceTree = "<group>"; };
 		F7333087271FB67D0095E6EC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F7333089271FB78C0095E6EC /* LeetCode - Regular Expression Matching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Regular Expression Matching.swift"; sourceTree = "<group>"; };
 		F78C46AA271E4EAF00B0B1E2 /* Problem-Solving */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem-Solving"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -51,6 +53,8 @@
 		F78C46A1271E4EAF00B0B1E2 = {
 			isa = PBXGroup;
 			children = (
+				55D3014A277D946D0011154C /* LeetCode - Search in Rotated Sorted Array.swift */,
+				55A727532778767D003D19B9 /* LeetCode - Divide Two Integers.swift */,
 				554F8EB3277342C400A54639 /* LeetCode - Merge k Sorted Lists.swift */,
 				554F8E602771E0F100A54639 /* LeetCode - Generate Parentheses .swift */,
 				554F8E582770B3D900A54639 /* LeetCode - Remove Nth Node From End of List.swift */,
@@ -139,8 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55D3014B277D946D0011154C /* LeetCode - Search in Rotated Sorted Array.swift in Sources */,
 				F7333088271FB67D0095E6EC /* main.swift in Sources */,
-				554F8EB4277342C400A54639 /* LeetCode - Merge k Sorted Lists.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
