@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55D3014B277D946D0011154C /* LeetCode - Search in Rotated Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55D3014A277D946D0011154C /* LeetCode - Search in Rotated Sorted Array.swift */; };
+		5564534B278481CA0026859F /* Boj - 사탕게임.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556453022782BC890026859F /* Boj - 사탕게임.swift */; };
 		F7333088271FB67D0095E6EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7333087271FB67D0095E6EC /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +31,9 @@
 		554F8E582770B3D900A54639 /* LeetCode - Remove Nth Node From End of List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Remove Nth Node From End of List.swift"; sourceTree = "<group>"; };
 		554F8E602771E0F100A54639 /* LeetCode - Generate Parentheses .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Generate Parentheses .swift"; sourceTree = "<group>"; };
 		554F8EB3277342C400A54639 /* LeetCode - Merge k Sorted Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Merge k Sorted Lists.swift"; sourceTree = "<group>"; };
+		55645300278293B30026859F /* LeetCode - Find First and Last Position of Element in Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Find First and Last Position of Element in Sorted Array.swift"; sourceTree = "<group>"; };
+		556453022782BC890026859F /* Boj - 사탕게임.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Boj - 사탕게임.swift"; sourceTree = "<group>"; };
+		556453492784770B0026859F /* LeetCode - Valid Sudoku.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Valid Sudoku.swift"; sourceTree = "<group>"; };
 		55A727532778767D003D19B9 /* LeetCode - Divide Two Integers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Divide Two Integers.swift"; sourceTree = "<group>"; };
 		55D3014A277D946D0011154C /* LeetCode - Search in Rotated Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Search in Rotated Sorted Array.swift"; sourceTree = "<group>"; };
 		F7333087271FB67D0095E6EC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -53,6 +56,9 @@
 		F78C46A1271E4EAF00B0B1E2 = {
 			isa = PBXGroup;
 			children = (
+				556453492784770B0026859F /* LeetCode - Valid Sudoku.swift */,
+				556453022782BC890026859F /* Boj - 사탕게임.swift */,
+				55645300278293B30026859F /* LeetCode - Find First and Last Position of Element in Sorted Array.swift */,
 				55D3014A277D946D0011154C /* LeetCode - Search in Rotated Sorted Array.swift */,
 				55A727532778767D003D19B9 /* LeetCode - Divide Two Integers.swift */,
 				554F8EB3277342C400A54639 /* LeetCode - Merge k Sorted Lists.swift */,
@@ -143,8 +149,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55D3014B277D946D0011154C /* LeetCode - Search in Rotated Sorted Array.swift in Sources */,
 				F7333088271FB67D0095E6EC /* main.swift in Sources */,
+				5564534B278481CA0026859F /* Boj - 사탕게임.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
