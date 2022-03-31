@@ -8,42 +8,38 @@
 import Foundation
 
 class Solution {
-    var cache: [[Int]] = []
-    var summedNum: [Int] = []
     func splitArray(_ nums: [Int], _ m: Int) -> Int {
-        cache = Array(repeating: Array(repeating: -1, count: m), count: nums.count)
-        _ = nums.reduce(0) {
-            summedNum.append($0 + $1)
-            return $0 + $1
+        var minSum = 0
+        var maxSum = 0
+        
+        for num in nums {
+            minSum = max(minSum, num)
+            maxSum += num
         }
         
-        return dp(y: nums.count-1, x: m-1)
-    }
-    
-    private func dp(y: Int, x: Int) -> Int {
-        if cache[y][x] != -1 {
-            return cache[y][x]
-        }
-        if x == 0 {
-            cache[y][x] = summedNum[y]
-            return cache[y][x]
-        }
-        
-        var answer = Int.max
-        for i in (x-1 ... y-1).reversed() {
-            let sum = sumArray(start: i + 1, end: y)
-            let dpAnswer = dp(y: i, x: x-1)
-            let tmpAnswer = max(sum, dpAnswer)
-            answer = min(answer,tmpAnswer)
-            if tmpAnswer == sum {
-                break
+        var answer = 0
+        while minSum <= maxSum {
+            let mid = (maxSum + minSum) / 2
+            if isPossible(sum: mid, nums: nums, m: m) {
+                answer = mid
+                maxSum = mid - 1
+            } else {
+                minSum = mid + 1
             }
         }
-        cache[y][x] = answer
         return answer
     }
     
-    private func sumArray(start: Int, end: Int) -> Int {
-        return summedNum[end] - summedNum[start - 1]
+    private func isPossible(sum: Int, nums: [Int], m: Int) -> Bool {
+        var subArrayCount = 1
+        var currentSum = 0
+        for num in nums {
+            currentSum += num
+            if currentSum > sum {
+                currentSum = num
+                subArrayCount += 1
+            }
+        }
+        return subArrayCount <= m
     }
 }
