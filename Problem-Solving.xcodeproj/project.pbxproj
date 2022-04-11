@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55545FA827F5369B0090CD3E /* LeetCode - Split Array Largest Sum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55545FA727F532AA0090CD3E /* LeetCode - Split Array Largest Sum.swift */; };
+		5568417827F6E3D1007A5525 /* Combination Sum .swift in Sources */ = {isa = PBXBuildFile; fileRef = 5568417727F6E3C5007A5525 /* Combination Sum .swift */; };
 		F7333088271FB67D0095E6EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7333087271FB67D0095E6EC /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +38,7 @@
 		5564534C278531C00026859F /* LeetCode - Count and Say.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Count and Say.swift"; sourceTree = "<group>"; };
 		5564534F278552390026859F /* Boj - 유레카 이론.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Boj - 유레카 이론.swift"; sourceTree = "<group>"; };
 		55645352278560860026859F /* Boj - 2503 .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Boj - 2503 .swift"; sourceTree = "<group>"; };
+		5568417727F6E3C5007A5525 /* Combination Sum .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Combination Sum .swift"; sourceTree = "<group>"; };
 		55A727532778767D003D19B9 /* LeetCode - Divide Two Integers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Divide Two Integers.swift"; sourceTree = "<group>"; };
 		55D3014A277D946D0011154C /* LeetCode - Search in Rotated Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Search in Rotated Sorted Array.swift"; sourceTree = "<group>"; };
 		F7333087271FB67D0095E6EC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
@@ -57,15 +58,10 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F78C46A1271E4EAF00B0B1E2 = {
+		5568417527F6E3AD007A5525 /* LeetCode */ = {
 			isa = PBXGroup;
 			children = (
 				55545FA727F532AA0090CD3E /* LeetCode - Split Array Largest Sum.swift */,
-				55645352278560860026859F /* Boj - 2503 .swift */,
-				554F8E56277064C500A54639 /* Boj - 분해합.swift */,
-				556453022782BC890026859F /* Boj - 사탕게임.swift */,
-				5564534F278552390026859F /* Boj - 유레카 이론.swift */,
-				554F8E54277058D000A54639 /* Boj - 일곱 난쟁이.swift */,
 				F78C46AD271E4EAF00B0B1E2 /* LeetCode -  Palindrome Number.swift */,
 				554F8DB1276B407C00A54639 /* LeetCode - 3Sum.swift */,
 				554F8D1B27676BE000A54639 /* LeetCode - Container With Most Water.swift */,
@@ -78,6 +74,28 @@
 				554F8E582770B3D900A54639 /* LeetCode - Remove Nth Node From End of List.swift */,
 				55D3014A277D946D0011154C /* LeetCode - Search in Rotated Sorted Array.swift */,
 				556453492784770B0026859F /* LeetCode - Valid Sudoku.swift */,
+				5568417727F6E3C5007A5525 /* Combination Sum .swift */,
+			);
+			path = LeetCode;
+			sourceTree = "<group>";
+		};
+		5568417627F6E3BA007A5525 /* Boj */ = {
+			isa = PBXGroup;
+			children = (
+				55645352278560860026859F /* Boj - 2503 .swift */,
+				554F8E56277064C500A54639 /* Boj - 분해합.swift */,
+				556453022782BC890026859F /* Boj - 사탕게임.swift */,
+				5564534F278552390026859F /* Boj - 유레카 이론.swift */,
+				554F8E54277058D000A54639 /* Boj - 일곱 난쟁이.swift */,
+			);
+			path = Boj;
+			sourceTree = "<group>";
+		};
+		F78C46A1271E4EAF00B0B1E2 = {
+			isa = PBXGroup;
+			children = (
+				5568417627F6E3BA007A5525 /* Boj */,
+				5568417527F6E3AD007A5525 /* LeetCode */,
 				F78C46AC271E4EAF00B0B1E2 /* Problem-Solving */,
 				F78C46AB271E4EAF00B0B1E2 /* Products */,
 			);
@@ -157,7 +175,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55545FA827F5369B0090CD3E /* LeetCode - Split Array Largest Sum.swift in Sources */,
+				5568417827F6E3D1007A5525 /* Combination Sum .swift in Sources */,
 				F7333088271FB67D0095E6EC /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
