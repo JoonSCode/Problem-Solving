@@ -8,4 +8,6 @@
 import Foundation
 
 let sol = Solution()
-print(sol.numSquares(7))
+var arr = [[0,1,0],[0,0,1],[1,1,1],[0,0,0]]
+sol.gameOfLife(&arr)
+print(arr)
