@@ -8,4 +8,4 @@
 import Foundation
 
 let sol = Solution()
-print(sol.combinationSum([2,3,5], 8))
+print(sol.numSquares(7))
