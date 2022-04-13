@@ -8,6 +8,4 @@
 import Foundation
 
 let sol = Solution()
-var arr = [[0,1,0],[0,0,1],[1,1,1],[0,0,0]]
-sol.gameOfLife(&arr)
-print(arr)
+print(sol.generateMatrix(3))
