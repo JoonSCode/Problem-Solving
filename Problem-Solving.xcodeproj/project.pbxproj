@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		556200D82806B4A900CB2EB5 /* Spiral Matrix II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 556200D72806B4A000CB2EB5 /* Spiral Matrix II.swift */; };
+		55342225281A580400D05C7C /* Path With Minimum Effort.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55342224281A580400D05C7C /* Path With Minimum Effort.swift */; };
 		F7333088271FB67D0095E6EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7333087271FB67D0095E6EC /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +24,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		55342224281A580400D05C7C /* Path With Minimum Effort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Path With Minimum Effort.swift"; sourceTree = "<group>"; };
 		554F8D1B27676BE000A54639 /* LeetCode - Container With Most Water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Container With Most Water.swift"; sourceTree = "<group>"; };
 		554F8DB1276B407C00A54639 /* LeetCode - 3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - 3Sum.swift"; sourceTree = "<group>"; };
 		554F8E54277058D000A54639 /* Boj - 일곱 난쟁이.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Boj - 일곱 난쟁이.swift"; sourceTree = "<group>"; };
@@ -83,6 +84,7 @@
 				5562009828041CE700CB2EB5 /* Perfect Squares - Array.swift */,
 				556200D52805BA3500CB2EB5 /* Game of Life.swift */,
 				556200D72806B4A000CB2EB5 /* Spiral Matrix II.swift */,
+				55342224281A580400D05C7C /* Path With Minimum Effort.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -184,7 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7333088271FB67D0095E6EC /* main.swift in Sources */,
-				556200D82806B4A900CB2EB5 /* Spiral Matrix II.swift in Sources */,
+				55342225281A580400D05C7C /* Path With Minimum Effort.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
