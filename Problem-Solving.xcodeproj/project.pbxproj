@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55524BB528224428006D936A /* Max Number of K-Sum Pairs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55524BB428224428006D936A /* Max Number of K-Sum Pairs.swift */; };
+		55524BB7282CD63E006D936A /* Permutations II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55524BB6282CD63E006D936A /* Permutations II.swift */; };
 		F7333088271FB67D0095E6EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7333087271FB67D0095E6EC /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -33,6 +33,7 @@
 		554F8E602771E0F100A54639 /* LeetCode - Generate Parentheses .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Generate Parentheses .swift"; sourceTree = "<group>"; };
 		554F8EB3277342C400A54639 /* LeetCode - Merge k Sorted Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Merge k Sorted Lists.swift"; sourceTree = "<group>"; };
 		55524BB428224428006D936A /* Max Number of K-Sum Pairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Max Number of K-Sum Pairs.swift"; sourceTree = "<group>"; };
+		55524BB6282CD63E006D936A /* Permutations II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Permutations II.swift"; sourceTree = "<group>"; };
 		55545FA727F532AA0090CD3E /* LeetCode - Split Array Largest Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Split Array Largest Sum.swift"; sourceTree = "<group>"; };
 		556200962804070000CB2EB5 /* Perfect Squares - List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Perfect Squares - List.swift"; sourceTree = "<group>"; };
 		5562009828041CE700CB2EB5 /* Perfect Squares - Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Perfect Squares - Array.swift"; sourceTree = "<group>"; };
@@ -87,6 +88,7 @@
 				556200D72806B4A000CB2EB5 /* Spiral Matrix II.swift */,
 				55342224281A580400D05C7C /* Path With Minimum Effort.swift */,
 				55524BB428224428006D936A /* Max Number of K-Sum Pairs.swift */,
+				55524BB6282CD63E006D936A /* Permutations II.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -188,7 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7333088271FB67D0095E6EC /* main.swift in Sources */,
-				55524BB528224428006D936A /* Max Number of K-Sum Pairs.swift in Sources */,
+				55524BB7282CD63E006D936A /* Permutations II.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
