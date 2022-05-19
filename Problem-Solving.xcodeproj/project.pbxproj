@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55524BB9282D03A7006D936A /* Rotate Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55524BB8282D03A7006D936A /* Rotate Image.swift */; };
+		55524BD228321BE4006D936A /*  Longest Increasing Path in a Matrix.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55524BD128321BE4006D936A /*  Longest Increasing Path in a Matrix.swift */; };
 		F7333088271FB67D0095E6EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7333087271FB67D0095E6EC /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -35,6 +35,7 @@
 		55524BB428224428006D936A /* Max Number of K-Sum Pairs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Max Number of K-Sum Pairs.swift"; sourceTree = "<group>"; };
 		55524BB6282CD63E006D936A /* Permutations II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Permutations II.swift"; sourceTree = "<group>"; };
 		55524BB8282D03A7006D936A /* Rotate Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rotate Image.swift"; sourceTree = "<group>"; };
+		55524BD128321BE4006D936A /*  Longest Increasing Path in a Matrix.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " Longest Increasing Path in a Matrix.swift"; sourceTree = "<group>"; };
 		55545FA727F532AA0090CD3E /* LeetCode - Split Array Largest Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Split Array Largest Sum.swift"; sourceTree = "<group>"; };
 		556200962804070000CB2EB5 /* Perfect Squares - List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Perfect Squares - List.swift"; sourceTree = "<group>"; };
 		5562009828041CE700CB2EB5 /* Perfect Squares - Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Perfect Squares - Array.swift"; sourceTree = "<group>"; };
@@ -91,6 +92,7 @@
 				55524BB428224428006D936A /* Max Number of K-Sum Pairs.swift */,
 				55524BB6282CD63E006D936A /* Permutations II.swift */,
 				55524BB8282D03A7006D936A /* Rotate Image.swift */,
+				55524BD128321BE4006D936A /*  Longest Increasing Path in a Matrix.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -192,7 +194,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7333088271FB67D0095E6EC /* main.swift in Sources */,
-				55524BB9282D03A7006D936A /* Rotate Image.swift in Sources */,
+				55524BD228321BE4006D936A /*  Longest Increasing Path in a Matrix.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

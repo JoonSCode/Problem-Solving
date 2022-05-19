@@ -8,9 +8,6 @@
 import Foundation
 
 let sol = Solution()
-var arr = [[5,1,9,11],[2,4,8,10],[13,3,6,7],[15,14,12,16]]
-sol.rotate(&arr)
-arr.forEach({
-    print($0)
-})
-//print()
+let matrix = [[9,9,4],[6,6,8],[2,1,1]]
+print(sol.longestIncreasingPath(matrix))
+
