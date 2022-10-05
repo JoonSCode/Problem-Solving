@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5502D77F28EDC70100F5BB52 /* Add One Row to Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502D77E28EDC6FD00F5BB52 /* Add One Row to Tree.swift */; };
+		5502D78128EDCEB400F5BB52 /* Add One Row to Tree ver2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502D78028EDCDD900F5BB52 /* Add One Row to Tree ver2.swift */; };
 		F7333088271FB67D0095E6EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7333087271FB67D0095E6EC /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +25,7 @@
 
 /* Begin PBXFileReference section */
 		5502D77E28EDC6FD00F5BB52 /* Add One Row to Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Add One Row to Tree.swift"; sourceTree = "<group>"; };
+		5502D78028EDCDD900F5BB52 /* Add One Row to Tree ver2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Add One Row to Tree ver2.swift"; sourceTree = "<group>"; };
 		55342224281A580400D05C7C /* Path With Minimum Effort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Path With Minimum Effort.swift"; sourceTree = "<group>"; };
 		554F8D1B27676BE000A54639 /* LeetCode - Container With Most Water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Container With Most Water.swift"; sourceTree = "<group>"; };
 		554F8DB1276B407C00A54639 /* LeetCode - 3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - 3Sum.swift"; sourceTree = "<group>"; };
@@ -95,6 +96,7 @@
 				55524BB8282D03A7006D936A /* Rotate Image.swift */,
 				55524BD128321BE4006D936A /*  Longest Increasing Path in a Matrix.swift */,
 				5502D77E28EDC6FD00F5BB52 /* Add One Row to Tree.swift */,
+				5502D78028EDCDD900F5BB52 /* Add One Row to Tree ver2.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -195,7 +197,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5502D77F28EDC70100F5BB52 /* Add One Row to Tree.swift in Sources */,
+				5502D78128EDCEB400F5BB52 /* Add One Row to Tree ver2.swift in Sources */,
 				F7333088271FB67D0095E6EC /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
