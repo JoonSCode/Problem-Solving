@@ -8,6 +8,4 @@
 import Foundation
 
 let sol = Solution()
-let matrix = [[9,9,4],[6,6,8],[2,1,1]]
-print(sol.longestIncreasingPath(matrix))
-
+//print(sol.addOneRow(<#T##root: TreeNode?##TreeNode?#>, <#T##val: Int##Int#>, <#T##depth: Int##Int#>))
