@@ -7,5 +7,8 @@
 
 import Foundation
 
-//let sol = Solution()
-//print(sol.addOneRow(<#T##root: TreeNode?##TreeNode?#>, <#T##val: Int##Int#>, <#T##depth: Int##Int#>))
+let sol = Solution()
+let nums = [-1,0,3,5,9,12]
+let target = 9
+
+print(sol.search(nums, target))

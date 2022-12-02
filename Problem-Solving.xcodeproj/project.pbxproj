@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5502D78128EDCEB400F5BB52 /* Add One Row to Tree ver2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5502D78028EDCDD900F5BB52 /* Add One Row to Tree ver2.swift */; };
+		5511C4A32939F01100324BDB /* Binary Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5511C4A22939F00B00324BDB /* Binary Search.swift */; };
 		F7333088271FB67D0095E6EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7333087271FB67D0095E6EC /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -26,6 +26,7 @@
 /* Begin PBXFileReference section */
 		5502D77E28EDC6FD00F5BB52 /* Add One Row to Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Add One Row to Tree.swift"; sourceTree = "<group>"; };
 		5502D78028EDCDD900F5BB52 /* Add One Row to Tree ver2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Add One Row to Tree ver2.swift"; sourceTree = "<group>"; };
+		5511C4A22939F00B00324BDB /* Binary Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binary Search.swift"; sourceTree = "<group>"; };
 		55342224281A580400D05C7C /* Path With Minimum Effort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Path With Minimum Effort.swift"; sourceTree = "<group>"; };
 		554F8D1B27676BE000A54639 /* LeetCode - Container With Most Water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Container With Most Water.swift"; sourceTree = "<group>"; };
 		554F8DB1276B407C00A54639 /* LeetCode - 3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - 3Sum.swift"; sourceTree = "<group>"; };
@@ -97,6 +98,7 @@
 				55524BD128321BE4006D936A /*  Longest Increasing Path in a Matrix.swift */,
 				5502D77E28EDC6FD00F5BB52 /* Add One Row to Tree.swift */,
 				5502D78028EDCDD900F5BB52 /* Add One Row to Tree ver2.swift */,
+				5511C4A22939F00B00324BDB /* Binary Search.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -167,7 +169,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1300;
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					F78C46A9271E4EAF00B0B1E2 = {
 						CreatedOnToolsVersion = 13.0;
@@ -197,8 +199,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5502D78128EDCEB400F5BB52 /* Add One Row to Tree ver2.swift in Sources */,
 				F7333088271FB67D0095E6EC /* main.swift in Sources */,
+				5511C4A32939F01100324BDB /* Binary Search.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +241,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -300,6 +303,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -323,7 +327,9 @@
 		F78C46B2271E4EAF00B0B1E2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
@@ -332,7 +338,9 @@
 		F78C46B3271E4EAF00B0B1E2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
