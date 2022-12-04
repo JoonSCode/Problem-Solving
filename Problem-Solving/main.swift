@@ -7,8 +7,5 @@
 
 import Foundation
 
-//let sol = Solution()
-//let nums = [-1,0,3,5,9,12]
-//let target = 9
-//
-//print(sol.search(nums, target))
+let sol = Solution()
+print(sol.maxTurbulenceSize([2,0,2,4,2,5,0,1,2,3]))

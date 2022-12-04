@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5511C4AB293CC95500324BDB /* Longest Turbulent Subarray.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5511C4AA293CC93800324BDB /* Longest Turbulent Subarray.swift */; };
 		F7333088271FB67D0095E6EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7333087271FB67D0095E6EC /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -29,6 +30,7 @@
 		5511C4A42939F5DE00324BDB /* First Bad Version.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "First Bad Version.swift"; sourceTree = "<group>"; };
 		5511C4A62939FA3600324BDB /* Search Insert Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Search Insert Position.swift"; sourceTree = "<group>"; };
 		5511C4A9293CAED600324BDB /* Squares of a Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Squares of a Sorted Array.swift"; sourceTree = "<group>"; };
+		5511C4AA293CC93800324BDB /* Longest Turbulent Subarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Turbulent Subarray.swift"; sourceTree = "<group>"; };
 		55342224281A580400D05C7C /* Path With Minimum Effort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Path With Minimum Effort.swift"; sourceTree = "<group>"; };
 		554F8D1B27676BE000A54639 /* LeetCode - Container With Most Water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Container With Most Water.swift"; sourceTree = "<group>"; };
 		554F8DB1276B407C00A54639 /* LeetCode - 3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - 3Sum.swift"; sourceTree = "<group>"; };
@@ -104,6 +106,7 @@
 				5511C4A42939F5DE00324BDB /* First Bad Version.swift */,
 				5511C4A62939FA3600324BDB /* Search Insert Position.swift */,
 				5511C4A9293CAED600324BDB /* Squares of a Sorted Array.swift */,
+				5511C4AA293CC93800324BDB /* Longest Turbulent Subarray.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -204,6 +207,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5511C4AB293CC95500324BDB /* Longest Turbulent Subarray.swift in Sources */,
 				F7333088271FB67D0095E6EC /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
