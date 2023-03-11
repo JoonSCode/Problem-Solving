@@ -8,4 +8,4 @@
 import Foundation
 
 let sol = Solution()
-print(sol.maxTurbulenceSize([2,0,2,4,2,5,0,1,2,3]))
+print(sol.isHappy(2))
