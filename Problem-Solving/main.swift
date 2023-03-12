@@ -8,4 +8,6 @@
 import Foundation
 
 let sol = Solution()
-print(sol.findBall([[1,1,1,-1,-1],[1,1,1,-1,-1],[-1,-1,-1,1,1],[1,1,1,1,-1],[-1,-1,-1,-1,-1]]))
+var arr = [1,2,3,4,5,6,7]
+sol.rotate(&arr, 3)
+print(arr)
