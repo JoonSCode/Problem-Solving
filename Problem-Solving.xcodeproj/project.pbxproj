@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55AEA7FB29BF76D400E2A449 /* Remove Nth Node From End of List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AEA7FA29BF76D400E2A449 /* Remove Nth Node From End of List.swift */; };
+		55AEA7FD29BF7C0700E2A449 /* Palindrome Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55AEA7FC29BF7C0700E2A449 /* Palindrome Linked List.swift */; };
 		F7333088271FB67D0095E6EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7333087271FB67D0095E6EC /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -65,6 +65,7 @@
 		55AEA7F629BF6CEB00E2A449 /* Move Zeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Move Zeroes.swift"; sourceTree = "<group>"; };
 		55AEA7F829BF6F0300E2A449 /* Two Sum II - Input Array Is Sorted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Two Sum II - Input Array Is Sorted.swift"; sourceTree = "<group>"; };
 		55AEA7FA29BF76D400E2A449 /* Remove Nth Node From End of List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Remove Nth Node From End of List.swift"; sourceTree = "<group>"; };
+		55AEA7FC29BF7C0700E2A449 /* Palindrome Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Palindrome Linked List.swift"; sourceTree = "<group>"; };
 		55D3014A277D946D0011154C /* LeetCode - Search in Rotated Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Search in Rotated Sorted Array.swift"; sourceTree = "<group>"; };
 		F7333087271FB67D0095E6EC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F7333089271FB78C0095E6EC /* LeetCode - Regular Expression Matching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Regular Expression Matching.swift"; sourceTree = "<group>"; };
@@ -124,6 +125,7 @@
 				550B4C3329BD96A800039933 /* Multiply Strings.swift */,
 				55AEA7F629BF6CEB00E2A449 /* Move Zeroes.swift */,
 				55AEA7F829BF6F0300E2A449 /* Two Sum II - Input Array Is Sorted.swift */,
+				55AEA7FC29BF7C0700E2A449 /* Palindrome Linked List.swift */,
 				55AEA7FA29BF76D400E2A449 /* Remove Nth Node From End of List.swift */,
 			);
 			path = LeetCode;
@@ -226,7 +228,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7333088271FB67D0095E6EC /* main.swift in Sources */,
-				55AEA7FB29BF76D400E2A449 /* Remove Nth Node From End of List.swift in Sources */,
+				55AEA7FD29BF7C0700E2A449 /* Palindrome Linked List.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
