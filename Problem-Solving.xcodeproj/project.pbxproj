@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		555E302B29CB2E6B00AD522E /* Reverse Words in a String III.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555E302A29CB2E6B00AD522E /* Reverse Words in a String III.swift */; };
+		555E303C29CBE1B100AD522E /* Middle of the Linked List.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555E303B29CBE1B100AD522E /* Middle of the Linked List.swift */; };
 		F7333088271FB67D0095E6EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7333087271FB67D0095E6EC /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -52,6 +52,7 @@
 		55545FA727F532AA0090CD3E /* LeetCode - Split Array Largest Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Split Array Largest Sum.swift"; sourceTree = "<group>"; };
 		555E302829CB2DC500AD522E /* Reverse String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reverse String.swift"; sourceTree = "<group>"; };
 		555E302A29CB2E6B00AD522E /* Reverse Words in a String III.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Reverse Words in a String III.swift"; sourceTree = "<group>"; };
+		555E303B29CBE1B100AD522E /* Middle of the Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Middle of the Linked List.swift"; sourceTree = "<group>"; };
 		556200962804070000CB2EB5 /* Perfect Squares - List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Perfect Squares - List.swift"; sourceTree = "<group>"; };
 		5562009828041CE700CB2EB5 /* Perfect Squares - Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Perfect Squares - Array.swift"; sourceTree = "<group>"; };
 		556200D52805BA3500CB2EB5 /* Game of Life.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Game of Life.swift"; sourceTree = "<group>"; };
@@ -131,6 +132,7 @@
 				55AEA7FA29BF76D400E2A449 /* Remove Nth Node From End of List.swift */,
 				555E302829CB2DC500AD522E /* Reverse String.swift */,
 				555E302A29CB2E6B00AD522E /* Reverse Words in a String III.swift */,
+				555E303B29CBE1B100AD522E /* Middle of the Linked List.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -231,7 +233,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				555E302B29CB2E6B00AD522E /* Reverse Words in a String III.swift in Sources */,
+				555E303C29CBE1B100AD522E /* Middle of the Linked List.swift in Sources */,
 				F7333088271FB67D0095E6EC /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
