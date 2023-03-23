@@ -8,4 +8,5 @@
 import Foundation
 
 let sol = Solution()
-sol.checkInclusion("rvwrk", "lznomzggwrvrkxecjaq")
+sol.floodFill([[1,1,1],[1,1,0],[1,0,1]], 1, 1, 2)
+//sol.checkInclusion("rvwrk", "lznomzggwrvrkxecjaq")
