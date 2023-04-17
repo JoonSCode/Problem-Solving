@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		555E306729CC9F5100AD522E /* Flood Fill.swift in Sources */ = {isa = PBXBuildFile; fileRef = 555E306629CC983F00AD522E /* Flood Fill.swift */; };
+		55EDCF7B29ED261000D29950 /* Find First and Last Position of Element in Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55242E8729E57B8000D80FA6 /* Find First and Last Position of Element in Sorted Array.swift */; };
 		F7333088271FB67D0095E6EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7333087271FB67D0095E6EC /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,6 +37,7 @@
 		5511C4A62939FA3600324BDB /* Search Insert Position.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Search Insert Position.swift"; sourceTree = "<group>"; };
 		5511C4A9293CAED600324BDB /* Squares of a Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Squares of a Sorted Array.swift"; sourceTree = "<group>"; };
 		5511C4AA293CC93800324BDB /* Longest Turbulent Subarray.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Longest Turbulent Subarray.swift"; sourceTree = "<group>"; };
+		55242E8729E57B8000D80FA6 /* Find First and Last Position of Element in Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Find First and Last Position of Element in Sorted Array.swift"; sourceTree = "<group>"; };
 		55342224281A580400D05C7C /* Path With Minimum Effort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Path With Minimum Effort.swift"; sourceTree = "<group>"; };
 		554F8D1B27676BE000A54639 /* LeetCode - Container With Most Water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Container With Most Water.swift"; sourceTree = "<group>"; };
 		554F8DB1276B407C00A54639 /* LeetCode - 3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - 3Sum.swift"; sourceTree = "<group>"; };
@@ -97,6 +98,7 @@
 				5502D77E28EDC6FD00F5BB52 /* Add One Row to Tree.swift */,
 				5511C4A22939F00B00324BDB /* Binary Search.swift */,
 				5568417727F6E3C5007A5525 /* Combination Sum .swift */,
+				55242E8729E57B8000D80FA6 /* Find First and Last Position of Element in Sorted Array.swift */,
 				5511C4A42939F5DE00324BDB /* First Bad Version.swift */,
 				555E306629CC983F00AD522E /* Flood Fill.swift */,
 				556200D52805BA3500CB2EB5 /* Game of Life.swift */,
@@ -239,7 +241,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				555E306729CC9F5100AD522E /* Flood Fill.swift in Sources */,
+				55EDCF7B29ED261000D29950 /* Find First and Last Position of Element in Sorted Array.swift in Sources */,
 				F7333088271FB67D0095E6EC /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
