@@ -8,4 +8,4 @@
 import Foundation
 
 let sol = Solution()
-print(sol.searchRange([1,4], 4))
+print(sol.search([1], 0))

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		55EDCF7B29ED261000D29950 /* Find First and Last Position of Element in Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55242E8729E57B8000D80FA6 /* Find First and Last Position of Element in Sorted Array.swift */; };
+		555E5EDD29F8052C003DCDC2 /* Search in Rotated Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55EDCF7C29ED298500D29950 /* Search in Rotated Sorted Array.swift */; };
 		F7333088271FB67D0095E6EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7333087271FB67D0095E6EC /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -74,6 +74,7 @@
 		55AEA7FA29BF76D400E2A449 /* Remove Nth Node From End of List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Remove Nth Node From End of List.swift"; sourceTree = "<group>"; };
 		55AEA7FC29BF7C0700E2A449 /* Palindrome Linked List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Palindrome Linked List.swift"; sourceTree = "<group>"; };
 		55D3014A277D946D0011154C /* LeetCode - Search in Rotated Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Search in Rotated Sorted Array.swift"; sourceTree = "<group>"; };
+		55EDCF7C29ED298500D29950 /* Search in Rotated Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Search in Rotated Sorted Array.swift"; sourceTree = "<group>"; };
 		F7333087271FB67D0095E6EC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		F7333089271FB78C0095E6EC /* LeetCode - Regular Expression Matching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Regular Expression Matching.swift"; sourceTree = "<group>"; };
 		F78C46AA271E4EAF00B0B1E2 /* Problem-Solving */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Problem-Solving"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -135,6 +136,7 @@
 				555E302A29CB2E6B00AD522E /* Reverse Words in a String III.swift */,
 				550B4C2F29BD713900039933 /* Rotate Array.swift */,
 				55524BB8282D03A7006D936A /* Rotate Image.swift */,
+				55EDCF7C29ED298500D29950 /* Search in Rotated Sorted Array.swift */,
 				5511C4A62939FA3600324BDB /* Search Insert Position.swift */,
 				556200D72806B4A000CB2EB5 /* Spiral Matrix II.swift */,
 				550B4C2B29BC457E00039933 /* Spiral Matrix.swift */,
@@ -241,7 +243,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				55EDCF7B29ED261000D29950 /* Find First and Last Position of Element in Sorted Array.swift in Sources */,
+				555E5EDD29F8052C003DCDC2 /* Search in Rotated Sorted Array.swift in Sources */,
 				F7333088271FB67D0095E6EC /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
