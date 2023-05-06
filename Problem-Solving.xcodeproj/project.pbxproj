@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		558EBE062A0615FD00B88904 /* Merge Sorted Array.swift in Sources */ = {isa = PBXBuildFile; fileRef = 558EBE052A06107D00B88904 /* Merge Sorted Array.swift */; };
 		F7333088271FB67D0095E6EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7333087271FB67D0095E6EC /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -70,6 +69,7 @@
 		55645352278560860026859F /* Boj - 2503 .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Boj - 2503 .swift"; sourceTree = "<group>"; };
 		5568417727F6E3C5007A5525 /* Combination Sum .swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Combination Sum .swift"; sourceTree = "<group>"; };
 		558EBE052A06107D00B88904 /* Merge Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Merge Sorted Array.swift"; sourceTree = "<group>"; };
+		558EBE072A06181800B88904 /* Remove Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Remove Element.swift"; sourceTree = "<group>"; };
 		55A727532778767D003D19B9 /* LeetCode - Divide Two Integers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Divide Two Integers.swift"; sourceTree = "<group>"; };
 		55AEA7F629BF6CEB00E2A449 /* Move Zeroes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Move Zeroes.swift"; sourceTree = "<group>"; };
 		55AEA7F829BF6F0300E2A449 /* Two Sum II - Input Array Is Sorted.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Two Sum II - Input Array Is Sorted.swift"; sourceTree = "<group>"; };
@@ -147,6 +147,7 @@
 				55AEA7F829BF6F0300E2A449 /* Two Sum II - Input Array Is Sorted.swift */,
 				550B4C2D29BC5E3400039933 /* Where Will the Ball Fall.swift */,
 				555E5EDE29FA3C01003DCDC2 /* Search a 2D Matrix.swift */,
+				558EBE072A06181800B88904 /* Remove Element.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -248,7 +249,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7333088271FB67D0095E6EC /* main.swift in Sources */,
-				558EBE062A0615FD00B88904 /* Merge Sorted Array.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
