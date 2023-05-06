@@ -8,4 +8,6 @@
 import Foundation
 
 let sol = Solution()
-print(sol.search([1], 0))
+var nums1 = [1,2,3,0,0,0]
+sol.merge(&nums1, 3, [2,5,6], 3)
+print(nums1)
