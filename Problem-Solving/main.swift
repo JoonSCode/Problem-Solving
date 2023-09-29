@@ -8,8 +8,8 @@
 import Foundation
 
 let sol = Solution()
-var testCases = [[2,3,1,1,4], [3,2,1,0,4]]
+var testCases = [[2,3,1,1,4], [2,3,0,1,4], [2, 1]]
 testCases.forEach({
-    print(Solution().canJump($0))
+    print(Solution().jump($0))
 })
 
