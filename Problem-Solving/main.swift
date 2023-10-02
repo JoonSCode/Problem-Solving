@@ -8,8 +8,6 @@
 import Foundation
 
 let sol = Solution()
-var testCases = [[2,3,1,1,4], [2,3,0,1,4], [2, 1]]
-testCases.forEach({
-    print(Solution().jump($0))
-})
+var nums1 = [1,1,2], nums2 = [1,2,3], k = 10
+print(sol.kSmallestPairs(nums1, nums2, k))
 

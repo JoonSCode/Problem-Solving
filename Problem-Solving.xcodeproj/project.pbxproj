@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		553896962AC6A66A009BE30E /* Jump Game II.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553896952AC6A66A009BE30E /* Jump Game II.swift */; };
+		553896982AC6BA3A009BE30E /* Find K Pairs with Smallest Sums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553896972AC6BA3A009BE30E /* Find K Pairs with Smallest Sums.swift */; };
 		F7333088271FB67D0095E6EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7333087271FB67D0095E6EC /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -41,6 +41,7 @@
 		55342224281A580400D05C7C /* Path With Minimum Effort.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Path With Minimum Effort.swift"; sourceTree = "<group>"; };
 		553896932AC6A220009BE30E /* Jump Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Jump Game.swift"; sourceTree = "<group>"; };
 		553896952AC6A66A009BE30E /* Jump Game II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Jump Game II.swift"; sourceTree = "<group>"; };
+		553896972AC6BA3A009BE30E /* Find K Pairs with Smallest Sums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Find K Pairs with Smallest Sums.swift"; sourceTree = "<group>"; };
 		554F8D1B27676BE000A54639 /* LeetCode - Container With Most Water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Container With Most Water.swift"; sourceTree = "<group>"; };
 		554F8DB1276B407C00A54639 /* LeetCode - 3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - 3Sum.swift"; sourceTree = "<group>"; };
 		554F8E54277058D000A54639 /* Boj - 일곱 난쟁이.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Boj - 일곱 난쟁이.swift"; sourceTree = "<group>"; };
@@ -161,6 +162,7 @@
 				556DB3782A124AE800EE6B42 /* Best Time to Buy and Sell Stock.swift */,
 				553896932AC6A220009BE30E /* Jump Game.swift */,
 				553896952AC6A66A009BE30E /* Jump Game II.swift */,
+				553896972AC6BA3A009BE30E /* Find K Pairs with Smallest Sums.swift */,
 			);
 			path = LeetCode;
 			sourceTree = "<group>";
@@ -261,8 +263,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				553896982AC6BA3A009BE30E /* Find K Pairs with Smallest Sums.swift in Sources */,
 				F7333088271FB67D0095E6EC /* main.swift in Sources */,
-				553896962AC6A66A009BE30E /* Jump Game II.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
