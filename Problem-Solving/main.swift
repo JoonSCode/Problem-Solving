@@ -8,5 +8,6 @@
 import Foundation
 
 let sol = Solution()
-var pattern = "abba", s = "dog cat cat dog"
-print(sol.wordPattern(pattern, s))
+sol.permute([1,2,3,5,7,9]).forEach({
+    print($0)
+})

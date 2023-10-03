@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		553896E62ACBF9F7009BE30E /* Word Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553896E52ACBF9F7009BE30E /* Word Pattern.swift */; };
+		553896E82ACC0143009BE30E /* Permutations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553896E72ACC0143009BE30E /* Permutations.swift */; };
 		F7333088271FB67D0095E6EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7333087271FB67D0095E6EC /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +45,7 @@
 		553896E12ACAB55F009BE30E /* Minimum Number of Arrows to Burst Balloons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Number of Arrows to Burst Balloons.swift"; sourceTree = "<group>"; };
 		553896E32ACBF56C009BE30E /* Same Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Same Tree.swift"; sourceTree = "<group>"; };
 		553896E52ACBF9F7009BE30E /* Word Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Word Pattern.swift"; sourceTree = "<group>"; };
+		553896E72ACC0143009BE30E /* Permutations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Permutations.swift; sourceTree = "<group>"; };
 		554F8D1B27676BE000A54639 /* LeetCode - Container With Most Water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Container With Most Water.swift"; sourceTree = "<group>"; };
 		554F8DB1276B407C00A54639 /* LeetCode - 3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - 3Sum.swift"; sourceTree = "<group>"; };
 		554F8E54277058D000A54639 /* Boj - 일곱 난쟁이.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Boj - 일곱 난쟁이.swift"; sourceTree = "<group>"; };
@@ -150,6 +151,7 @@
 				555E302A29CB2E6B00AD522E /* Reverse Words in a String III.swift */,
 				553896E32ACBF56C009BE30E /* Same Tree.swift */,
 				553896E52ACBF9F7009BE30E /* Word Pattern.swift */,
+				553896E72ACC0143009BE30E /* Permutations.swift */,
 				550B4C2F29BD713900039933 /* Rotate Array.swift */,
 				55524BB8282D03A7006D936A /* Rotate Image.swift */,
 				55EDCF7C29ED298500D29950 /* Search in Rotated Sorted Array.swift */,
@@ -269,8 +271,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				553896E82ACC0143009BE30E /* Permutations.swift in Sources */,
 				F7333088271FB67D0095E6EC /* main.swift in Sources */,
-				553896E62ACBF9F7009BE30E /* Word Pattern.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
