@@ -8,4 +8,5 @@
 import Foundation
 
 let sol = Solution()
-
+var pattern = "abba", s = "dog cat cat dog"
+print(sol.wordPattern(pattern, s))

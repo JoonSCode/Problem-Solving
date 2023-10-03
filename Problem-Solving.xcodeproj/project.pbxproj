@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		553896E42ACBF56C009BE30E /* Same Tree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553896E32ACBF56C009BE30E /* Same Tree.swift */; };
+		553896E62ACBF9F7009BE30E /* Word Pattern.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553896E52ACBF9F7009BE30E /* Word Pattern.swift */; };
 		F7333088271FB67D0095E6EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7333087271FB67D0095E6EC /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -44,6 +44,7 @@
 		553896972AC6BA3A009BE30E /* Find K Pairs with Smallest Sums.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Find K Pairs with Smallest Sums.swift"; sourceTree = "<group>"; };
 		553896E12ACAB55F009BE30E /* Minimum Number of Arrows to Burst Balloons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Minimum Number of Arrows to Burst Balloons.swift"; sourceTree = "<group>"; };
 		553896E32ACBF56C009BE30E /* Same Tree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Same Tree.swift"; sourceTree = "<group>"; };
+		553896E52ACBF9F7009BE30E /* Word Pattern.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Word Pattern.swift"; sourceTree = "<group>"; };
 		554F8D1B27676BE000A54639 /* LeetCode - Container With Most Water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Container With Most Water.swift"; sourceTree = "<group>"; };
 		554F8DB1276B407C00A54639 /* LeetCode - 3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - 3Sum.swift"; sourceTree = "<group>"; };
 		554F8E54277058D000A54639 /* Boj - 일곱 난쟁이.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Boj - 일곱 난쟁이.swift"; sourceTree = "<group>"; };
@@ -148,6 +149,7 @@
 				555E302829CB2DC500AD522E /* Reverse String.swift */,
 				555E302A29CB2E6B00AD522E /* Reverse Words in a String III.swift */,
 				553896E32ACBF56C009BE30E /* Same Tree.swift */,
+				553896E52ACBF9F7009BE30E /* Word Pattern.swift */,
 				550B4C2F29BD713900039933 /* Rotate Array.swift */,
 				55524BB8282D03A7006D936A /* Rotate Image.swift */,
 				55EDCF7C29ED298500D29950 /* Search in Rotated Sorted Array.swift */,
@@ -268,7 +270,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F7333088271FB67D0095E6EC /* main.swift in Sources */,
-				553896E42ACBF56C009BE30E /* Same Tree.swift in Sources */,
+				553896E62ACBF9F7009BE30E /* Word Pattern.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,7 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -383,7 +385,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 11.3;
+				MACOSX_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = macosx;
