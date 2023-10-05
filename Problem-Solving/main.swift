@@ -8,6 +8,4 @@
 import Foundation
 
 let sol = Solution()
-sol.permute([1,2,3,5,7,9]).forEach({
-    print($0)
-})
+print(sol.intToRoman(1994))
