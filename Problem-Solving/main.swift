@@ -8,4 +8,18 @@
 import Foundation
 
 let sol = Solution()
-print(sol.intToRoman(1994))
+
+var head = ListNode()
+var now: ListNode? = head
+[1,2,3,4,5].forEach({
+    now?.next = .init($0)
+    now = now?.next
+})
+
+print("__________________________________")
+var answer = sol.rotateRight(head.next, 2)
+while answer != nil {
+    print(answer?.val)
+    answer = answer?.next
+}
+
