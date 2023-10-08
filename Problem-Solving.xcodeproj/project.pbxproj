@@ -51,6 +51,7 @@
 		553896ED2ACEA6CB009BE30E /* Word Ladder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Word Ladder.swift"; sourceTree = "<group>"; };
 		553A82452AD2B72F002DC172 /* Combinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combinations.swift; sourceTree = "<group>"; };
 		553A82472AD2C41F002DC172 /* Binary Tree Zigzag Level Order Traversal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binary Tree Zigzag Level Order Traversal.swift"; sourceTree = "<group>"; };
+		553A82482AD2C674002DC172 /* Binary Tree Right Side View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Binary Tree Right Side View.swift"; sourceTree = "<group>"; };
 		554F8D1B27676BE000A54639 /* LeetCode - Container With Most Water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Container With Most Water.swift"; sourceTree = "<group>"; };
 		554F8DB1276B407C00A54639 /* LeetCode - 3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - 3Sum.swift"; sourceTree = "<group>"; };
 		554F8E54277058D000A54639 /* Boj - 일곱 난쟁이.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Boj - 일곱 난쟁이.swift"; sourceTree = "<group>"; };
@@ -144,6 +145,7 @@
 				553A82452AD2B72F002DC172 /* Combinations.swift */,
 				556453492784770B0026859F /* LeetCode - Valid Sudoku.swift */,
 				550B4C3129BD7E4100039933 /* Longest Common Prefix.swift */,
+				553A82482AD2C674002DC172 /* Binary Tree Right Side View.swift */,
 				55524BD128321BE4006D936A /* Longest Increasing Path in a Matrix.swift */,
 				555E306329CC375A00AD522E /* Longest Substring Without Repeating Characters.swift */,
 				5511C4AA293CC93800324BDB /* Longest Turbulent Subarray.swift */,
