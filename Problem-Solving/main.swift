@@ -8,18 +8,5 @@
 import Foundation
 
 let sol = Solution()
-
-var head = ListNode()
-var now: ListNode? = head
-[1,2,3,4,5].forEach({
-    now?.next = .init($0)
-    now = now?.next
-})
-
-print("__________________________________")
-var answer = sol.rotateRight(head.next, 2)
-while answer != nil {
-    print(answer?.val)
-    answer = answer?.next
-}
-
+var beginWord = "hit", endWord = "cog", wordList = ["hot","dot","dog","lot","log"]
+print(sol.ladderLength(beginWord, endWord, wordList))
