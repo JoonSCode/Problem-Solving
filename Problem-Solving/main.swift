@@ -8,5 +8,4 @@
 import Foundation
 
 let sol = Solution()
-var beginWord = "hit", endWord = "cog", wordList = ["hot","dot","dog","lot","log"]
-print(sol.ladderLength(beginWord, endWord, wordList))
+print(sol.combine(6, 3))

@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		553896EE2ACEA6CB009BE30E /* Word Ladder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553896ED2ACEA6CB009BE30E /* Word Ladder.swift */; };
+		553A82462AD2C01C002DC172 /* Combinations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553A82452AD2B72F002DC172 /* Combinations.swift */; };
 		F7333088271FB67D0095E6EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7333087271FB67D0095E6EC /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -49,6 +49,7 @@
 		553896E92ACC0AA9009BE30E /* Integer to Roman.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Integer to Roman.swift"; sourceTree = "<group>"; };
 		553896EB2ACE86DF009BE30E /* Rotate List.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Rotate List.swift"; sourceTree = "<group>"; };
 		553896ED2ACEA6CB009BE30E /* Word Ladder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Word Ladder.swift"; sourceTree = "<group>"; };
+		553A82452AD2B72F002DC172 /* Combinations.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Combinations.swift; sourceTree = "<group>"; };
 		554F8D1B27676BE000A54639 /* LeetCode - Container With Most Water.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - Container With Most Water.swift"; sourceTree = "<group>"; };
 		554F8DB1276B407C00A54639 /* LeetCode - 3Sum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "LeetCode - 3Sum.swift"; sourceTree = "<group>"; };
 		554F8E54277058D000A54639 /* Boj - 일곱 난쟁이.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Boj - 일곱 난쟁이.swift"; sourceTree = "<group>"; };
@@ -138,6 +139,7 @@
 				554F8E582770B3D900A54639 /* LeetCode - Remove Nth Node From End of List.swift */,
 				55D3014A277D946D0011154C /* LeetCode - Search in Rotated Sorted Array.swift */,
 				55545FA727F532AA0090CD3E /* LeetCode - Split Array Largest Sum.swift */,
+				553A82452AD2B72F002DC172 /* Combinations.swift */,
 				556453492784770B0026859F /* LeetCode - Valid Sudoku.swift */,
 				550B4C3129BD7E4100039933 /* Longest Common Prefix.swift */,
 				55524BD128321BE4006D936A /* Longest Increasing Path in a Matrix.swift */,
@@ -277,8 +279,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				553896EE2ACEA6CB009BE30E /* Word Ladder.swift in Sources */,
 				F7333088271FB67D0095E6EC /* main.swift in Sources */,
+				553A82462AD2C01C002DC172 /* Combinations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
