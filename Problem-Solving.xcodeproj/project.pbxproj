@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		553A824D2AD2CA84002DC172 /* TreeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553A824C2AD2CA84002DC172 /* TreeNode.swift */; };
-		553A82562AEE3750002DC172 /* Longest Increasing Subsequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 553A824E2AD2D264002DC172 /* Longest Increasing Subsequence.swift */; };
+		5573EFB72B42B952005C0D4F /* Valid Palindrome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5573EFB62B42B952005C0D4F /* Valid Palindrome.swift */; };
 		F7333088271FB67D0095E6EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7333087271FB67D0095E6EC /* main.swift */; };
 /* End PBXBuildFile section */
 
@@ -89,6 +89,7 @@
 		556DB3742A123D7500EE6B42 /* Remove Duplicates from Sorted Array II.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Remove Duplicates from Sorted Array II.swift"; sourceTree = "<group>"; };
 		556DB3762A123FDB00EE6B42 /* Majority Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Majority Element.swift"; sourceTree = "<group>"; };
 		556DB3782A124AE800EE6B42 /* Best Time to Buy and Sell Stock.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Best Time to Buy and Sell Stock.swift"; sourceTree = "<group>"; };
+		5573EFB62B42B952005C0D4F /* Valid Palindrome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Valid Palindrome.swift"; sourceTree = "<group>"; };
 		558EBE052A06107D00B88904 /* Merge Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Merge Sorted Array.swift"; sourceTree = "<group>"; };
 		558EBE072A06181800B88904 /* Remove Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Remove Element.swift"; sourceTree = "<group>"; };
 		558EBE082A061BF600B88904 /* Remove Duplicates from Sorted Array.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Remove Duplicates from Sorted Array.swift"; sourceTree = "<group>"; };
@@ -140,6 +141,7 @@
 				553896972AC6BA3A009BE30E /* Find K Pairs with Smallest Sums.swift */,
 				5511C4A42939F5DE00324BDB /* First Bad Version.swift */,
 				555E306629CC983F00AD522E /* Flood Fill.swift */,
+				5573EFB62B42B952005C0D4F /* Valid Palindrome.swift */,
 				556200D52805BA3500CB2EB5 /* Game of Life.swift */,
 				550B4C2929BC439400039933 /* Happy Number.swift */,
 				553896E92ACC0AA9009BE30E /* Integer to Roman.swift */,
@@ -298,9 +300,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5573EFB72B42B952005C0D4F /* Valid Palindrome.swift in Sources */,
 				F7333088271FB67D0095E6EC /* main.swift in Sources */,
 				553A824D2AD2CA84002DC172 /* TreeNode.swift in Sources */,
-				553A82562AEE3750002DC172 /* Longest Increasing Subsequence.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

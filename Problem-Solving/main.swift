@@ -8,5 +8,4 @@
 import Foundation
 
 let sol = Solution()
-let nums = [7,7,7,7,7,7,7] 
-print(sol.lengthOfLIS(nums))
+print(sol.isPalindrome(".,"))
